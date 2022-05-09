@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <title>MY FITNESS</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("Backgroundimage.jpg");
+            color: black;
+            /* background: linear-gradient(to bottom,black,transparent); */
+            /* background: linear-gradient(to top,black,transparent); */
+
+
+        }
+
+        .logo {
+            display: inline-block;
+             /* border: 2px solid red;  */
+            position: absolute;
+            left: 90px;
+            top: 20px;
+            text-align: center;
+            color: black;
+            font-family: 'Baloo bhai', cursive;
+            font-style: bold;
+            font-size: 25px;
+        }
+
+
+        .dashboard {
+            /* border: 2px solid green;  */
+            display:block;
+            width: 50%;
+            margin: 20px auto;
+            align-items: center;
+            padding-left: 250px;
+            
+            
+
+        }
+
+        .details {
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 27px;
+            /* border: 2px solid white; */
+        }
+
+        .navbar {
+            display: inline-block;
+            padding: 5px;
+        }
+
+        .navbar li {
+            font-family: 'Baloo bhai', cursive;
+            display: inline-block;
+            font-size: 20px;
+            text-align: center;
+            padding: 8px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+            background-color: black;
+            border-radius: 10px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+            
+        }
+
+        .btn  {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 15px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .form {
+            backdrop-filter: blur(5px);
+            background: rgba(255, 255, 255, 0.6);
+            border: 2px solid white;
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            margin: 40px;
+            width: 40%;
+            height: 420px;
+            border-radius: 20px;
+            font-family: 'Baloo Bhai', cursive;
+            margin-left: 325px;
+            text-align: center;
+        
+        }
+
+        #head {
+            text-align: center;
+        }
+
+        .inform {
+            text-align: center;
+            padding: 15px;
+
+        }
+
+        .inform input {
+            font-size: 20px;
+            text-align: center;
+            border: 3px solid black;
+            width: 275px;
+            border-radius: 10px;
+            font-family: 'Baloo Bhai', cursive;
+
+        }
+
+        .sub {
+            display: block;
+            width: 205px;
+            margin: 15px auto;
+            height: 30px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <!-- logo -->
+        <div class="logo">
+            <img src="Gymlogo.png" alt="" height="80px">
+            <div>MY FITNESS</div>
+        </div>
+        <!----------------------- dashboard---------------------------- -->
+        <div class="dashboard">
+            <ul class="navbar">
+                <li> <a href="GYM.html">HOME</a> </li>
+                <li> <a href="about.html">ABOUT US</a> </li>
+                <li> <a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    
+    </div>
+        <!-------------------FORM--------------->
+    <div class="form">
+        <h1 id="head">SAY HI</h1>
+        
+        <h3>Contact No : 021489767</h3>
+        <h3>Email : Fitness@gmail.com</h3>
+        <h3>Address : Supreme City, Stilt Level 04, 
+         Powai, Mumbai, Maharashtra 400076</h3>
+        
+    </div>
+</body>
+
+</html>
